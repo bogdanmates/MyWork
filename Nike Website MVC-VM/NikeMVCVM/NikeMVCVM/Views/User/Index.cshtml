@@ -1,0 +1,21 @@
+﻿@model IEnumerable <Nike.DataLayer.Nike_User>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h2>User List:</h2>
+    <div>
+        @foreach (var item in Model) { 
+             @Html.DisplayFor(model => item.FirstName)
+        }
+    </div>
+</body>
+</html>

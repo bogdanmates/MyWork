@@ -1,0 +1,37 @@
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\Nike.Business\obj\Debug\Nike.Business.csprojResolveAssemblyReference.cache
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\Nike.Business\bin\Debug\Nike.Business.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\Nike.Business\bin\Debug\Nike.Business.pdb
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\Nike.Business\bin\Debug\Nike.DataLayer.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\Nike.Business\bin\Debug\Nike.DataLayer.pdb
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\Nike.Business\obj\Debug\Nike.Business.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\Nike.Business\obj\Debug\Nike.Business.pdb
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\bin\Debug\Nike.Business.dll
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\bin\Debug\Nike.Business.pdb
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\bin\Debug\Nike.DataLayer.dll
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\bin\Debug\Nike.DataLayer.pdb
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\obj\Debug\Nike.Business.csprojResolveAssemblyReference.cache
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\obj\Debug\Nike.Business.dll
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\obj\Debug\Nike.Business.pdb
+D:\mygit\Internship\NikeMVCVM\Nike.Business\bin\Debug\Nike.Business.dll
+D:\mygit\Internship\NikeMVCVM\Nike.Business\bin\Debug\Nike.Business.pdb
+D:\mygit\Internship\NikeMVCVM\Nike.Business\bin\Debug\Nike.DataLayer.dll
+D:\mygit\Internship\NikeMVCVM\Nike.Business\bin\Debug\Nike.DataLayer.pdb
+D:\mygit\Internship\NikeMVCVM\Nike.Business\obj\Debug\Nike.Business.csprojResolveAssemblyReference.cache
+D:\mygit\Internship\NikeMVCVM\Nike.Business\obj\Debug\Nike.Business.dll
+D:\mygit\Internship\NikeMVCVM\Nike.Business\obj\Debug\Nike.Business.pdb
+D:\mygit\Internship\NikeMVCVM\Nike.Business\bin\Debug\EntityFramework.dll
+D:\mygit\Internship\NikeMVCVM\Nike.Business\bin\Debug\EntityFramework.xml
+D:\mygit\Internship\NikeMVCVM\Nike.Business\bin\Debug\Microsoft.Data.Edm.dll
+D:\mygit\Internship\NikeMVCVM\Nike.Business\bin\Debug\Microsoft.Data.Entity.Design.Extensibility.dll
+D:\mygit\Internship\NikeMVCVM\Nike.Business\bin\Debug\Microsoft.Data.Edm.xml
+D:\mygit\Internship\NikeMVCVM\Nike.Business\bin\Debug\Nike.Business.dll.config
+D:\mygit\Internship\NikeMVCVM\Nike.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\mygit\Internship\NikeMVCVM\Nike.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\bin\Debug\Nike.Business.dll.config
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\bin\Debug\EntityFramework.dll
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\bin\Debug\EntityFramework.SqlServer.dll
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\bin\Debug\Microsoft.Data.Edm.dll
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\bin\Debug\Microsoft.Data.Entity.Design.Extensibility.dll
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\bin\Debug\EntityFramework.xml
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\bin\Debug\EntityFramework.SqlServer.xml
+D:\DEV\Github\Internship\NikeMVCVM\Nike.Business\bin\Debug\Microsoft.Data.Edm.xml

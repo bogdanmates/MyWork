@@ -1,0 +1,25 @@
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\Nike.DataLayer\bin\Debug\Nike.DataLayer.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\Nike.DataLayer\bin\Debug\Nike.DataLayer.pdb
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\Nike.DataLayer\obj\Debug\Nike.DataLayer.csprojResolveAssemblyReference.cache
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\Nike.DataLayer\obj\Debug\Nike.DataLayer.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\Nike.DataLayer\obj\Debug\Nike.DataLayer.pdb
+D:\DEV\Github\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\Nike.DataLayer.dll
+D:\DEV\Github\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\Nike.DataLayer.pdb
+D:\DEV\Github\Internship\NikeMVCVM\Nike.DataLayer\obj\Debug\Nike.DataLayer.csprojResolveAssemblyReference.cache
+D:\DEV\Github\Internship\NikeMVCVM\Nike.DataLayer\obj\Debug\Nike.DataLayer.dll
+D:\DEV\Github\Internship\NikeMVCVM\Nike.DataLayer\obj\Debug\Nike.DataLayer.pdb
+D:\mygit\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\Nike.DataLayer.dll
+D:\mygit\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\Nike.DataLayer.pdb
+D:\mygit\Internship\NikeMVCVM\Nike.DataLayer\obj\Debug\Nike.DataLayer.csprojResolveAssemblyReference.cache
+D:\mygit\Internship\NikeMVCVM\Nike.DataLayer\obj\Debug\Nike.DataLayer.dll
+D:\mygit\Internship\NikeMVCVM\Nike.DataLayer\obj\Debug\Nike.DataLayer.pdb
+D:\mygit\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\Nike.DataLayer.dll.config
+D:\mygit\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\EntityFramework.dll
+D:\mygit\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\mygit\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\EntityFramework.xml
+D:\mygit\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\DEV\Github\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\Nike.DataLayer.dll.config
+D:\DEV\Github\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\EntityFramework.dll
+D:\DEV\Github\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\DEV\Github\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\EntityFramework.xml
+D:\DEV\Github\Internship\NikeMVCVM\Nike.DataLayer\bin\Debug\EntityFramework.SqlServer.xml

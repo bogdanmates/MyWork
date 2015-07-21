@@ -1,0 +1,159 @@
+.underbar{
+	background-color: #E0E0E0 ;
+	height: 60px;
+	margin-bottom: 25px;
+}
+.gridcontainer{
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	display: inline;
+
+}
+.gridcontainer .row{
+	margin-bottom: 40px;
+}
+.leftmenu{
+
+	background-color:  #E0E0E0 ;
+	font-family: Helvetica,Arial,sans-serif;
+	bottom: auto;
+	width: 220px;
+	position: relative;
+	left: 23px;
+	color: #000;
+	padding: 20px 15px 16px;
+	margin-left: 10px;
+}
+.left-selection{
+	border-radius: 2px;
+	background-size: auto auto;
+	background-color: #EEE;
+	padding: 20px 0px 16px;
+}
+.leftmenu header {
+	font-size: 0.975em;	
+}
+
+
+#subtitle1{
+	font-size: 0.940em;	
+}
+.categorytitle{
+	font-size: 0.945em;	
+	color: black;
+	text-decoration: none;
+}
+.facet-menu a:hover{
+	text-decoration: none;
+	color: black;
+}
+.sub-menu-selector{
+	position: absolute;
+	right: 0px;
+}
+.facet-menu{
+	position: relative;
+	font-size: 15px;
+	display: block;
+	line-height: 1;
+	color: #000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.facet-menu .selected-facet{
+	color: #FFF;
+	cursor: default;
+	text-decoration: none;
+	font: 14px/40px Helvetica,Arial,sans-serif;
+	border-radius: 2px;
+	background: black;
+	display: block;
+	height: 40px;
+	margin-right: 4px;
+	padding: 0px 8px 0px 9px;
+	position: relative;
+}
+.facet-menu-items{
+	padding-top: 5px;
+}
+.facet-menu-items a:hover{
+	text-decoration: none;
+	color:#FFF;
+}
+.facet-close{
+	position: absolute;
+	right: 8px;
+}
+ol, ul{
+	list-style: outside none ;
+	padding-left: 0px;
+}
+.facet-menu-items-list{
+	height: 42px;
+
+}
+
+.inline-facet{
+	display: block;
+	font-size: 14px;
+	line-height: 26px;
+	color: #000;
+	
+}
+.facet-menu-items ul li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.facet-menu-items ul {
+	padding-top: 8px;
+}
+.main-grid{
+	margin-left: 5%;
+	margin-right: auto;
+}
+.main-grid .gridtitle{
+	font-size: 27px;
+}
+.main-grid header{
+	height: 110px;
+	position: relative;
+
+
+}
+.grid-header-text{
+	position:absolute;
+	bottom: 0px;
+}
+.sort-drop-down{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+.sort-drop-down .dropdown-menu {
+	background-color: white
+}
+.product-block{
+	
+}
+.image-panel{
+	padding-bottom: 10px;
+}
+.number-of-colors, .product-display-name{
+	font-size: 12px;
+	font-weight: bold;
+
+}
+.product-group-details hr{
+	margin: 1px;
+	max-width: 220px;
+}
+.product-name p{
+	margin:0px;
+}
+.product-grid{
+	margin-top: 15px;
+}
+#topNavbarButtons6{
+	margin-top: 0px;
+}

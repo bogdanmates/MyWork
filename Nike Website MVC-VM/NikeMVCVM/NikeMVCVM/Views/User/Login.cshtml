@@ -1,0 +1,22 @@
+﻿@model Nike.Business.ViewModels.LoginVM
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+@using (Html.BeginForm("Login","User"))
+{
+    @Html.AntiForgeryToken()
+    <div>
+        <fieldset>
+            <legend>Login Form</legend>
+            <div class="editor-label">@Html.LabelFor(model => model.EmailAddress)</div>
+            <div class="editor-field">@Html.TextBoxFor(model => model.EmailAddress)</div>
+            <div class="editor-label">@Html.LabelFor(model => model.Password)</div>
+            <div class="editor-field">@Html.PasswordFor(model => model.Password)</div>
+            <input type="submit" value="Log In" />
+        </fieldset>
+    </div>
+}
+

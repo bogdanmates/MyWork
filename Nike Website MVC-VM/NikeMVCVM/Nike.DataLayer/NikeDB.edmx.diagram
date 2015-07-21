@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1fa7a4c4554b44b7aa389e45de9f0708" Name="Diagram1">
+        <EntityTypeShape EntityType="NikeModel.Nike_Category" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NikeModel.Nike_Images" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="NikeModel.Nike_Product" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="NikeModel.Nike_User" Width="1.5" PointX="8.125" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="NikeModel.FK_Nike_Product_Nike_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="NikeModel.FK_Nike_Product_Nike_Images" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

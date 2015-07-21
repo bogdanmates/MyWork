@@ -1,0 +1,414 @@
+.navbar {
+  position: relative;
+  margin-bottom: 0px;
+  min-height: 1px;
+    background-image: none;
+  background-color: #000;
+}
+
+.navbar navbar-default {
+    clear: both;
+    background-image: none;
+    background-color: #000;
+}
+
+#topNavbar {
+    background-image: none;
+    background-color: #000;
+    height: 36px;
+}
+
+#topNavbarButtons6 {
+  background-image: url("../Images/header/emailSignUp.png");
+  margin-top: 6px;
+  height: 29px;
+  width: 111px;
+}
+
+#topNavbarButtons6:hover {
+  background-image: url("../Images/header/emailSignUpOrange.png");
+  background-position: 1px 1px;
+}
+
+#topNavbarButtons3 {
+  background-image: url("../Images/header/image.png");
+  background-repeat: no-repeat;  
+  margin-top: 7px;
+  max-width: 50px;
+  height: 26px;
+}
+
+#topNavbarButtons3:hover{
+  background-image: url("../Images/header/imageOrange.png");
+  margin-top: 5px;
+}
+
+#topNavbarButtons4 {
+  background-image: url("../Images/header/hurley.png");
+  background-repeat: no-repeat;
+  min-width: 50px;
+  margin-top: 9px;
+  margin-left: 3px;
+}
+
+#topNavbarButtons4:hover {
+  background-image: url("../Images/header/hurleyOrange.png");
+  background-position: -1px -1px;
+}
+
+.navbar-default {
+  background-color: #000;
+  border: 0;
+  height: 30px; 
+
+    background-repeat: repeat-x;
+    border-radius: 4px;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 5px rgba(0, 0, 0, 0.075);
+}
+
+.navbar-default .navbar-brand {
+  color: #FFF;
+  height: auto;
+  padding: 8px 12px;
+}
+
+#topNavbarButtons1 {
+  color: #ff9900;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #ff9900;
+}
+
+.navbar-header {
+  height: 30px; 
+}
+
+#topNavbarButtons1 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#topNavbarButtons2 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#topNavbarButtons5 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#topNavbarButtons6 {
+    margin-top: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#topNavbarButtons7 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.glyphicon {
+     font-family: 'Glyphicons Halflings';
+     font-style: normal;
+     text-decoration: inherit;
+     line-height: normal;
+ }
+
+.glyphicon-shopping-cart {
+   zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe116;');
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+
+#topNavbarButtons8 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.dropdown-menu {
+  background-color: #424141;
+  right: 0;
+  left: auto;
+  width: 220px;  
+}
+
+.dropdown-menu:hover {
+  background-color: #424141;
+  right: 0;
+  left: auto;
+  width: 220px;  
+}
+
+.dropdown-menu::before, 
+.dropdown-menu::after {
+  border: none;
+  content: none;
+}
+
+pre {
+  background-color: #424141;
+  color: #FFF;
+  border: 0;
+  padding: 0;
+}
+
+pre:hover  {
+  color: #ff9900;
+  background-color: #424141 !important;
+}
+
+
+.btn-default {
+    background-image: none;
+}
+
+
+
+
+.tdOptions {
+	background-color: #414141 !important;
+}
+
+.sameBackground {
+  background-color: #414141 !important;
+}
+
+
+.tdOptions:hover {
+  background-color: #414141 !important;
+}
+
+.sameBackground:hover {
+  background-color: #414141 !important;
+}
+
+
+
+
+
+
+
+.bigOne{
+  height: 50px;
+  clear: both;
+  background-color: #fff;  
+}
+
+#bs-example-navbar-collapse-1 {  
+  height: 50px !important;  
+}
+
+.nav .navbar-nav .navbar-right {
+  float: right !important;
+  padding-right: 0;
+}
+
+.navbar-form .navbar-left #navSearch {
+  clear: both;
+  width: 500px;
+}
+
+.navbar-form .form-control {
+  display: inline-block;
+  width: 423px;
+  vertical-align: middle;  
+  margin-top: 0;
+  margin-bottom: 0;  
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  background-color: #fff;  
+  color: #ff9900; 
+}
+
+#nikeLogo {
+  background-image: url("../Images/header/logo.png");
+  background-repeat: no-repeat; 
+  height: 71px;
+  width: 70px;
+  vertical-align: middle; 
+}
+
+#nikeLogo:hover {
+  background-image: url("../Images/header/logoOrange.png");
+  background-repeat: no-repeat; 
+  height: 71px;
+  width: 70px;
+  vertical-align: middle;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-weight: bold;
+}
+
+.navbar-form {
+  width: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-right: 0px;
+  margin-left: 365px;
+  border: 0px none;
+  box-shadow: none;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.form-control-feedback {
+  position: absolute;
+  top: 8px;
+  right: 594px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+
+
+#loginDropdown {
+  background-color: #FFF;
+  width: 350px;
+}
+
+.dropdown-menu .boldText {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#loginDDLjoinBTN {
+  background-color: #000;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-left: 24px;
+  height: 34px;
+  width: 98px;
+}
+
+#loginDDLloginBTN {
+  background-color: #ff9900;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-left: 24px;  
+  height: 34px;
+  width: 98px;
+}
+
+.dropdown-menu #inputEmail {
+  margin-left: 18px;
+  width: 312px;
+  margin-top: 3px;
+}
+
+.dropdown-menu #inputPassword {
+  margin-left: 18px;
+  width: 312px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.dropdown-menu #phText {
+  font-style: italic;
+  text-decoration: underline;
+  margin-top: -29px;
+  margin-left: 185px;
+}
+
+.dropdown-menu #kmliCk {
+  margin-left: 18px;
+}
+
+.navbar navbar-default {
+    clear: both;
+    background-image: none;
+    background-color: #000;
+}
+
+#topNavbarButtons6 {
+    margin-top: 5px;
+}
+
+
+@media (min-width: 768px) {
+  .navbar {
+    border-radius: 0px;
+  }
+
+  .navbar-right {
+    float: right!important;
+    margin-right: 0px;
+  }
+}
+
+#topNavbarButtons6 {
+    margin-top: 5px;
+}
+
+.tdOptions:hover > li > a {
+	background-color: #414141 !important;
+}
+
+.sameBackground:hover > li {
+  background-color: #414141 !important;
+}
+
+.sameBackground:hover > a {
+  background-color: #414141 !important;
+}
+
+.sameBackground:hover{
+  background-color: #414141 !important;
+}
+
+.tdOptions:hover > a{
+    background-color: #414141 !important;
+}
+
+
+
+.tdOptions {
+	background-color: #414141!important;
+}
+
+.sameBackground {
+  background-color: #414141 !important;
+}
+
+
+.tdOptions:hover {
+  background-color: #414141 !important;
+}
+
+.sameBackground:hover {
+  background-color: #414141!important;
+}
+
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    background-image: none;
+}
+
+#theLoginInput {
+    margin-left: 20px;
+}
+
+input {
+    margin-left: 0px;
+}
+
+label {
+    margin-left: 0px;
+}

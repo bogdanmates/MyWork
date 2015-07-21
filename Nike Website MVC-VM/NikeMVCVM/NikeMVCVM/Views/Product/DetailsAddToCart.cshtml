@@ -1,0 +1,19 @@
+﻿@model Nike.Business.ViewModels.Product.ProductCartVM
+
+@using (Ajax.BeginForm("Message", "ShoppingCart", new AjaxOptions() { HttpMethod = "post", UpdateTargetId = "notify" }))
+{
+    @Html.ValidationSummary(false)
+    <fieldset>
+        <div>
+            @Html.HiddenFor(model => model.Id)
+            @Html.LabelFor(model => model.Quantity)
+            @Html.TextBoxFor(model => model.Quantity)
+            <input type="submit" value="Add to Cart" />
+
+        </div>
+
+    </fieldset>
+}
+
+<p id="notify">
+</p>

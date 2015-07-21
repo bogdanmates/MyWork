@@ -1,0 +1,256 @@
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\NikeMVCVM.dll.config
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\NikeMVCVM.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\NikeMVCVM.pdb
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Antlr3.Runtime.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.AspNet.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.Core.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OAuth.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OpenId.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\EntityFramework.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Microsoft.Data.Edm.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Microsoft.Data.OData.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Microsoft.Web.Infrastructure.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Newtonsoft.Json.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Spatial.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.Helpers.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.Http.OData.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.Mvc.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.Optimization.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.Razor.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.Deployment.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.Razor.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\WebGrease.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\WebMatrix.Data.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\WebMatrix.WebData.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\EntityFramework.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Newtonsoft.Json.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.Helpers.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.Mvc.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.Razor.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.Deployment.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.Razor.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\WebMatrix.Data.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\WebMatrix.WebData.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.AspNet.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.Core.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OAuth.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OpenId.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Web.Http.OData.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Microsoft.Data.Edm.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Microsoft.Data.OData.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\System.Spatial.xml
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\de\Microsoft.Data.Edm.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\es\Microsoft.Data.Edm.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\fr\Microsoft.Data.Edm.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\it\Microsoft.Data.Edm.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\ja\Microsoft.Data.Edm.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\ko\Microsoft.Data.Edm.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\ru\Microsoft.Data.Edm.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\de\Microsoft.Data.OData.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\es\Microsoft.Data.OData.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\fr\Microsoft.Data.OData.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\it\Microsoft.Data.OData.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\ja\Microsoft.Data.OData.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\ko\Microsoft.Data.OData.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\ru\Microsoft.Data.OData.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\de\System.Spatial.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\es\System.Spatial.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\fr\System.Spatial.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\it\System.Spatial.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\ja\System.Spatial.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\ko\System.Spatial.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\ru\System.Spatial.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\zh-Hans\System.Spatial.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\zh-Hant\System.Spatial.resources.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\obj\Debug\Nike.Web.csprojResolveAssemblyReference.cache
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\obj\Debug\NikeMVCVM.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\obj\Debug\NikeMVCVM.pdb
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Nike.Business.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Nike.DataLayer.dll
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Nike.Business.pdb
+c:\users\bogdan.mates\documents\visual studio 2013\Projects\NikeMVCVM\NikeMVCVM\bin\Nike.DataLayer.pdb
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\NikeMVCVM.dll.config
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\NikeMVCVM.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\NikeMVCVM.pdb
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Antlr3.Runtime.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.AspNet.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.Core.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OAuth.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OpenId.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\EntityFramework.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Data.Edm.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Data.OData.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Web.Infrastructure.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Newtonsoft.Json.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Nike.Business.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Spatial.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Helpers.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Http.OData.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Mvc.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Optimization.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Razor.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.Deployment.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.Razor.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\WebGrease.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\WebMatrix.Data.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\WebMatrix.WebData.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Nike.DataLayer.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Nike.Business.pdb
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\EntityFramework.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Newtonsoft.Json.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Helpers.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Mvc.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Razor.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.Deployment.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.Razor.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\WebMatrix.Data.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\WebMatrix.WebData.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.AspNet.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.Core.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OAuth.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OpenId.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Http.OData.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Data.Edm.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Data.OData.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\System.Spatial.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\Nike.DataLayer.pdb
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\de\Microsoft.Data.Edm.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\es\Microsoft.Data.Edm.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\it\Microsoft.Data.Edm.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\de\Microsoft.Data.OData.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\es\Microsoft.Data.OData.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\fr\Microsoft.Data.OData.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\it\Microsoft.Data.OData.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\ja\Microsoft.Data.OData.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\ko\Microsoft.Data.OData.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\ru\Microsoft.Data.OData.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\de\System.Spatial.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\es\System.Spatial.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\fr\System.Spatial.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\it\System.Spatial.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\ja\System.Spatial.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\ko\System.Spatial.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\ru\System.Spatial.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\zh-Hans\System.Spatial.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\zh-Hant\System.Spatial.resources.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\obj\Debug\Nike.Web.csprojResolveAssemblyReference.cache
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\obj\Debug\NikeMVCVM.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\obj\Debug\NikeMVCVM.pdb
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\NikeMVCVM.dll.config
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\NikeMVCVM.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\NikeMVCVM.pdb
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Antlr3.Runtime.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.AspNet.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.Core.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OAuth.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OpenId.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\EntityFramework.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Data.Edm.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Data.OData.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Web.Infrastructure.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Web.WebPages.OAuth.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Newtonsoft.Json.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Nike.Business.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Spatial.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Helpers.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Http.OData.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Mvc.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Optimization.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Razor.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.Deployment.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.Razor.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\WebGrease.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\WebMatrix.Data.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\WebMatrix.WebData.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Nike.DataLayer.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Nike.Business.pdb
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\EntityFramework.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Newtonsoft.Json.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Helpers.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Mvc.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Razor.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.Deployment.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.WebPages.Razor.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\WebMatrix.Data.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Web.WebPages.OAuth.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\WebMatrix.WebData.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.AspNet.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.Core.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OAuth.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OpenId.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Web.Http.OData.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Data.Edm.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Microsoft.Data.OData.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\System.Spatial.xml
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\Nike.DataLayer.pdb
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\de\Microsoft.Data.Edm.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\es\Microsoft.Data.Edm.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\it\Microsoft.Data.Edm.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\de\Microsoft.Data.OData.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\es\Microsoft.Data.OData.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\fr\Microsoft.Data.OData.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\it\Microsoft.Data.OData.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\ja\Microsoft.Data.OData.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\ko\Microsoft.Data.OData.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\ru\Microsoft.Data.OData.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\de\System.Spatial.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\es\System.Spatial.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\fr\System.Spatial.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\it\System.Spatial.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\ja\System.Spatial.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\ko\System.Spatial.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\ru\System.Spatial.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\zh-Hans\System.Spatial.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\zh-Hant\System.Spatial.resources.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\obj\Debug\Nike.Web.csprojResolveAssemblyReference.cache
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\obj\Debug\NikeMVCVM.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\obj\Debug\NikeMVCVM.pdb
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\EntityFramework.SqlServer.dll
+D:\mygit\Internship\NikeMVCVM\NikeMVCVM\bin\EntityFramework.SqlServer.xml
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\EntityFramework.SqlServer.dll
+D:\DEV\Github\Internship\NikeMVCVM\NikeMVCVM\bin\EntityFramework.SqlServer.xml

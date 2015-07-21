@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="NikeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Nike_Category">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Nike_Images">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Path" Type="varchar" MaxLength="150" />
+          <Property Name="ProductId" Type="int" />
+        </EntityType>
+        <EntityType Name="Nike_Product">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+          <Property Name="Description" Type="varchar" MaxLength="50" />
+          <Property Name="Stock" Type="int" />
+          <Property Name="CategoryId" Type="int" />
+          <Property Name="Price" Type="decimal" Precision="18" Scale="0" />
+          <Property Name="Size" Type="int" />
+        </EntityType>
+        <EntityType Name="Nike_User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="FirstName" Type="varchar" MaxLength="50" />
+          <Property Name="LastName" Type="varchar" MaxLength="50" />
+          <Property Name="ScreenName" Type="varchar" MaxLength="50" />
+          <Property Name="Gender" Type="varchar" MaxLength="50" />
+          <Property Name="Zipcode" Type="int" />
+          <Property Name="DateOfBirth" Type="date" />
+          <Property Name="emailAddress" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Password" Type="varchar" MaxLength="50" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Nike_Product_Nike_Category">
+          <End Role="Nike_Category" Type="Self.Nike_Category" Multiplicity="0..1" />
+          <End Role="Nike_Product" Type="Self.Nike_Product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Nike_Category">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Nike_Product">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Nike_Product_Nike_Images">
+          <End Role="Nike_Product" Type="Self.Nike_Product" Multiplicity="0..1" />
+          <End Role="Nike_Images" Type="Self.Nike_Images" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Nike_Product">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Nike_Images">
+              <PropertyRef Name="ProductId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="NikeModelStoreContainer">
+          <EntitySet Name="Nike_Category" EntityType="Self.Nike_Category" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Nike_Images" EntityType="Self.Nike_Images" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Nike_Product" EntityType="Self.Nike_Product" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Nike_User" EntityType="Self.Nike_User" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Nike_Product_Nike_Category" Association="Self.FK_Nike_Product_Nike_Category">
+            <End Role="Nike_Category" EntitySet="Nike_Category" />
+            <End Role="Nike_Product" EntitySet="Nike_Product" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Nike_Product_Nike_Images" Association="Self.FK_Nike_Product_Nike_Images">
+            <End Role="Nike_Product" EntitySet="Nike_Product" />
+            <End Role="Nike_Images" EntitySet="Nike_Images" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="NikeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Nike_Category">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="Nike_Product" Relationship="Self.FK_Nike_Product_Nike_Category" FromRole="Nike_Category" ToRole="Nike_Product" />
+        </EntityType>
+        <EntityType Name="Nike_Images">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Path" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="ProductId" Type="Int32" />
+          <NavigationProperty Name="Nike_Product" Relationship="Self.FK_Nike_Product_Nike_Images" FromRole="Nike_Images" ToRole="Nike_Product" />
+        </EntityType>
+        <EntityType Name="Nike_Product">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Stock" Type="Int32" />
+          <Property Name="CategoryId" Type="Int32" />
+          <Property Name="Price" Type="Decimal" Precision="18" Scale="0" />
+          <Property Name="Size" Type="Int32" />
+          <NavigationProperty Name="Nike_Category" Relationship="Self.FK_Nike_Product_Nike_Category" FromRole="Nike_Product" ToRole="Nike_Category" />
+          <NavigationProperty Name="Nike_Images" Relationship="Self.FK_Nike_Product_Nike_Images" FromRole="Nike_Product" ToRole="Nike_Images" />
+        </EntityType>
+        <EntityType Name="Nike_User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ScreenName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Zipcode" Type="Int32" />
+          <Property Name="DateOfBirth" Type="DateTime" Precision="0" />
+          <Property Name="emailAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_Nike_Product_Nike_Category">
+          <End Role="Nike_Category" Type="Self.Nike_Category" Multiplicity="0..1" />
+          <End Role="Nike_Product" Type="Self.Nike_Product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Nike_Category">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Nike_Product">
+              <PropertyRef Name="CategoryId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Nike_Product_Nike_Images">
+          <End Role="Nike_Product" Type="Self.Nike_Product" Multiplicity="0..1" />
+          <End Role="Nike_Images" Type="Self.Nike_Images" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Nike_Product">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Nike_Images">
+              <PropertyRef Name="ProductId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="NikeDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Nike_Category" EntityType="Self.Nike_Category" />
+          <EntitySet Name="Nike_Images" EntityType="Self.Nike_Images" />
+          <EntitySet Name="Nike_Product" EntityType="Self.Nike_Product" />
+          <EntitySet Name="Nike_User" EntityType="Self.Nike_User" />
+          <AssociationSet Name="FK_Nike_Product_Nike_Category" Association="Self.FK_Nike_Product_Nike_Category">
+            <End Role="Nike_Category" EntitySet="Nike_Category" />
+            <End Role="Nike_Product" EntitySet="Nike_Product" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Nike_Product_Nike_Images" Association="Self.FK_Nike_Product_Nike_Images">
+            <End Role="Nike_Product" EntitySet="Nike_Product" />
+            <End Role="Nike_Images" EntitySet="Nike_Images" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="NikeModelStoreContainer" CdmEntityContainer="NikeDBEntities">
+          <EntitySetMapping Name="Nike_Category">
+            <EntityTypeMapping TypeName="NikeModel.Nike_Category">
+              <MappingFragment StoreEntitySet="Nike_Category">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Nike_Images">
+            <EntityTypeMapping TypeName="NikeModel.Nike_Images">
+              <MappingFragment StoreEntitySet="Nike_Images">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Path" ColumnName="Path" />
+                <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Nike_Product">
+            <EntityTypeMapping TypeName="NikeModel.Nike_Product">
+              <MappingFragment StoreEntitySet="Nike_Product">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Stock" ColumnName="Stock" />
+                <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+                <ScalarProperty Name="Price" ColumnName="Price" />
+                <ScalarProperty Name="Size" ColumnName="Size" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Nike_User">
+            <EntityTypeMapping TypeName="NikeModel.Nike_User">
+              <MappingFragment StoreEntitySet="Nike_User">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+                <ScalarProperty Name="LastName" ColumnName="LastName" />
+                <ScalarProperty Name="ScreenName" ColumnName="ScreenName" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="Zipcode" ColumnName="Zipcode" />
+                <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+                <ScalarProperty Name="emailAddress" ColumnName="emailAddress" />
+                <ScalarProperty Name="Password" ColumnName="Password" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
