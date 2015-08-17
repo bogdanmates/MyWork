@@ -1,0 +1,51 @@
+﻿@model IEnumerable<EPiServerSiteCMS.Models.JsonOrderItems.JsonOrderItem>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Owner Name")
+        </th>
+        <th>
+            @Html.DisplayName("Tracking Number")
+        </th>
+        <th>
+            @Html.DisplayName("Expiration Date")
+        </th>
+        <th>
+            @Html.DisplayName("Items")
+        </th>
+        <th>
+            @Html.DisplayName("Total")
+        </th>
+        <th>
+            @Html.DisplayName("Currency")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ownerName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tranckingNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.expData)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.totalAmmountItems)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.totalAmmountSum)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.currency)
+        </td>
+    
+    </tr>
+}
+
+</table>

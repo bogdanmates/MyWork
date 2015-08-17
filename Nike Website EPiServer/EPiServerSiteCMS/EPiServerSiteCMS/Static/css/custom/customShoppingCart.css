@@ -1,0 +1,144 @@
+#summaryDiv {
+
+	margin-left: 10%;
+	margin-top: 5%;
+	background-color: #333;
+}
+
+#itemWrapper {
+	margin-top:5%;
+}
+
+#summaryLI {
+ 	 list-style:none;
+ 	 background-color: #333;
+}
+
+li> h3 {
+	color:white;
+}
+
+.totals span {
+	padding: 30px 15px 40px 0px;
+}
+body {
+	background-color: white;
+}
+#title {
+	text-align: center;
+	border-bottom: 1px solid gray !important;
+	padding: 0px 0px 20px 0px;
+}
+
+#summaryTitle {
+	border-bottom: 1px solid white;
+	padding-bottom: 15px;
+}
+
+#orderButtom {
+	position: relative;
+	top: 21px;
+	font-size: 17px;
+	color: white;
+	background: orange;
+	border: orange;
+}
+
+
+#itemLogo {
+	width: 12%;
+	height: 12%;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: none !important;
+}
+
+.no-border {
+    border: none !important;
+}
+
+#item_Price {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: none !important;
+}
+
+
+#item_Quantity {
+    border: none !important;
+    margin-left: -44px;
+
+}
+
+
+#item_Price {
+    text-align: right !important;
+}
+
+#item_DisplayName {
+    text-align: center !important;
+    margin-left: 30px;
+  
+}
+
+.relativePoz {
+      position: relative;
+    top: 3px;
+}
+
+.itemName.no-select.realtivePoz {
+    position: relative !important;
+    top: 3px !important;
+}
+
+#deleteBtnSC {
+    background-color: red;
+    width: 133px;
+    margin-top: 3px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+}
+
+#editBtnSC {
+    background-color: green;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+}
+
+#quantity {
+    width: 57px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    height: 33px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#editBtnSC:hover {
+    font-weight: bold;
+    color: white;
+}
+
+#deleteBtnSC:hover {
+    font-weight: bold;
+    color: white;
+}
+
+#totalPriceShoppingCart {
+    color: orangered;
+    font-size: 17px;
+    position: absolute;
+    left: 80px;
+    font-weight: bold;
+}

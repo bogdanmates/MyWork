@@ -1,0 +1,10 @@
+﻿@using EPiServerSiteCMS.Models.Blocks
+
+<div class="container">
+    <ul class="nav nav-tabs">
+
+        <li role="presentation" class="active"><a href="@Url.Action("Index", "BillingAddressBlock", new BillingAddressBlock())">Billing Address</a></li>
+        <li role="presentation" class="active"><a href="@Url.Action("Index", "ShippingAddressBlock", new BillingAddressBlock())">Shipping Address</a></li>
+        <li role="presentation" class="active"><a href="@Url.Action("Index", "OrderHistoryBlockType")">OrderHistory</a></li>
+    </ul>
+</div>

@@ -1,0 +1,87 @@
+﻿.dropdown-menu #phText {
+    font-style: italic;
+    text-decoration: underline;
+    margin-top: -39px;
+    margin-left: 23px;
+}
+
+#loginKMLI {
+    margin-top: 7px;
+}
+
+#loginEmailField {
+    left: 20px;
+}
+
+#loginPasswordField {
+    left: 20px;
+}
+
+#theTitle {
+    font-weight: bold;
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+#signUpButton {
+    background-color: #ff9900;
+    font-weight: bold;
+    color: #fff;
+    width: 118px;
+    height: 38px;
+    text-align: center;
+    margin-left: 526px;
+    margin-top: -80px;
+}
+
+.modal-footer {
+    text-align: left;
+    border-top: 1px solid #E5E5E5;
+}
+
+.modal-header .close {
+    margin-top: -41px;
+}
+
+#theRegister {
+    clear: both;
+    width: 677px;
+    margin-left: 564px;
+    background-color: white;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+}
+
+.editor-field {
+    width: 394px;
+}
+
+#theBody {
+    background-color: lightgray;
+}
+
+#registerHeader {
+    margin-left: 19px;
+}
+
+
+
+#loginPasswordField {
+    
+}
+
+#Password {
+    clear: both;
+    width: 239px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    height: 32px;
+}
+
+#Email {
+    clear: both;
+    width: 239px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    height: 32px;
+}

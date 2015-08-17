@@ -1,0 +1,231 @@
+﻿@model IEnumerable<EPiServerSiteCMS.Models.ViewModels.ProductViewModel>
+<link href="~/Static/css/custom/categorypage.css" rel="stylesheet" type="text/css" />
+
+<div class="container-fluid underbar">
+
+</div>
+
+<div class="gridcontainer container-fluid">
+    <!-- main container-->
+    <div class="row">
+        <div class="col-md-2 leftmenu">
+            <div class="left-selection">
+                <header>
+                    <p><strong>PRODUCTS</strong></p>
+                    <p id="subtitle1">FILTER BY</p>
+                </header>
+                <div class="facet-menu">
+                    <a class="categorytitle" href="#">
+                        <strong>Category</strong>
+                    </a>
+                    <span class="sub-menu-selector ">
+                        +
+                    </span>
+                    <div class="facet-menu-items">
+                        <a class="selected-facet" href="#">
+                            Shoes
+                            <span class="facet-close">
+                                <strong>x</strong>
+                            </span>
+                        </a>
+                        <ul clas="facet-menu-items-list">
+                            <li>
+                                <a class="inline-facet" href="#">
+                                    Clothing
+                                </a>
+                            </li>
+                            <li>
+                                <a class="inline-facet" href="#">
+                                    Gear
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="facet-menu">
+                    <a class="categorytitle" href="#">
+                        <strong>Gender</strong>
+                    </a>
+                    <span class="sub-menu-selector ">
+                        +
+                    </span>
+                    <div class="facet-menu-items">
+                        <ul clas="facet-menu-items-list">
+                            <li>
+                                <a class="inline-facet" href="#">
+                                    Women
+                                </a>
+                            </li>
+                            <li>
+                                <a class="inline-facet" href="#">
+                                    Men
+                                </a>
+                            </li>
+                            <li>
+                                <a class="inline-facet" href="#">
+                                    Kids
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="facet-menu">
+                    <a class="categorytitle" href="#">
+                        <strong>Sport</strong>
+                    </a>
+                    <span class="sub-menu-selector ">
+                        +
+                    </span>
+                    <div class="facet-menu-items">
+                        <ul clas="facet-menu-items-list">
+                            <li>
+                                <a class="inline-facet" href="#">
+                                    Running
+                                </a>
+                            </li>
+                            <li>
+                                <a class="inline-facet" href="#">
+                                    Basketball
+                                </a>
+                            </li>
+                            <li>
+                                <a class="inline-facet" href="#">
+                                    Jordan
+                                </a>
+                            </li>
+                            <li>
+                                <a class="inline-facet" href="#">
+                                    Sportswear
+                                </a>
+                            <li>
+                                <a class="inline-facet" href="#">
+                                    Training
+                                </a>
+                            </li>
+                            <li>
+                                <a class="inline-facet" href="#">
+                                    Football
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="facet-menu">
+                    <a class="categorytitle" href="#">
+                        <strong>Shoe Technology</strong>
+                    </a>
+                    <span class="sub-menu-selector ">
+                        +
+                    </span>
+
+                </div>
+
+                <div class="facet-menu">
+                    <a class="categorytitle" href="#">
+                        <strong>Type</strong>
+                    </a>
+                    <span class="sub-menu-selector ">
+                        +
+                    </span>
+
+                </div>
+
+                <div class="facet-menu">
+                    <a class="categorytitle" href="#">
+                        <strong>Collections</strong>
+                    </a>
+                    <span class="sub-menu-selector ">
+                        +
+                    </span>
+
+                </div>
+
+                <div class="facet-menu">
+                    <a class="categorytitle" href="#">
+                        <strong>Custom</strong>
+                    </a>
+                    <span class="sub-menu-selector ">
+                        +
+                    </span>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-8 main-grid ">
+            <header>
+                <div class="grid-header-text">
+                    <p class="gridtitle"><strong>SHOES</strong>
+                </div>
+                <div class="sort-drop-down">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                        Sort By:
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
+
+                        <li>
+                            <a href="#">Newest</a>
+                        </li>
+
+                        <li role="separator" class="divider"></li>
+
+                        <li>
+                            <a href="#">Highest rated</a>
+                        </li>
+                        <li role="separator" class="divider"></li>
+                        <li>
+                            <a href="#">Newest</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </header>
+
+            <section class="product-grid">
+                @* object! *@
+                @{// if there are more than 4 products on a row to create a new row
+                    var addedRows = Model.Count() % 4 == 0 ? 0 : 1;
+                    var numberOfRows = Model.Count() / 4 + addedRows;
+                }
+                @for (int i = 0; i < numberOfRows; i++)
+                {
+                    <div class="row">
+
+                        @foreach (var item in Model)
+                        {
+                            <div class="col-md-3 product-block">
+                                <div class="image-panel">
+                                    <a href="@Url.Action("Index", "PDP", new {contentreference = item.ContentRef})">
+                                        <img src="@item.Images.FirstOrDefault()" alt="shoe" height="220" width="220"/>
+                                    </a>
+                                </div>
+                                <div class="grid-item-info">
+                                    <div class="product-group-details">
+                                       
+                                        <div class="product-name">
+                                            <p class="product-display-name">
+                                                @item.DisplayName
+                                            </p>
+                                            <hr/>
+                                            <p class="product-description">
+                                                @item.Details
+                                            </p>
+                                            <p class="product-price">
+                                                $@item.Price.ToString("F")
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                    </div>
+                }
+            </section>
+        </div>
+    </div>
+</div>

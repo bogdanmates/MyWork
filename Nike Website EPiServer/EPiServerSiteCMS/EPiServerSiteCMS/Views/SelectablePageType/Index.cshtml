@@ -1,0 +1,18 @@
+﻿@model EPiServerSiteCMS.Models.Pages.SelectablePageType
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <h4>SelectablePageType</h4>
+	<hr />
+    <dl class="dl-horizontal">
+       @Html.PropertyFor(m => Model.ContentArea)
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

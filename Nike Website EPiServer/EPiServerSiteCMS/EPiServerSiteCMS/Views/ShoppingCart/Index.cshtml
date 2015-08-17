@@ -1,0 +1,86 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+
+@model EPiServerSiteCMS.Models.CartModel.CartVM
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" type="text/css" href="~/Static/css/custom/customSC.css" />
+<link rel="stylesheet" type="text/css" href="~/Static/css/custom/customShoppingCart.css" />
+
+
+
+<nav class="navbar navbarSC">
+    <div class="col-md-12 col-sm-12">
+        <h3 id="title">Your Shopping Cart</h3>
+    </div>
+</nav>
+
+
+<div class="container text-center">
+
+
+    <div id="itemWrapper" class="col-md-6 col-sm-12 text-left">
+        <ul>
+            <li class="row rowSC list-inline columnCaptions">
+                <span>QTY</span>
+                <span>ITEM</span>
+                <span>Price</span>
+            </li>
+
+            @foreach (var item in Model.ListOfItems)
+            {
+                <li class="row rowSC">
+                    <span class="quantity no-border">@Html.EditorFor(modelItem => item.Quantity)</span>
+                    <span class="itemName no-select realtivePoz settedWidth">@Html.DisplayFor(modelItem => item.DisplayName)</span>
+                    <span class="price">@Html.DisplayFor(modelItem => item.Price)</span>
+                    <div id="editButtons">
+                        @using (@Html.BeginForm("ModifyItem", "ShoppingCart", new { code = item.Code }))
+                        {
+                            @Html.TextBox("quantity", item.Quantity, @String.Format(" 0.00", item.Quantity))
+                            <input id="editBtnSC" class="btn btn-default setWidth70" type="submit" value="Update" />
+                        }
+
+                        @using (@Html.BeginForm("DeleteItem", "ShoppingCart", new { code = item.Code }))
+                        {
+                            <input id="deleteBtnSC" class="btn btn-default setWidth70" type="submit" value="Delete" />
+                        }
+                    </div>
+
+                </li>
+
+            }
+
+        </ul>
+    </div>
+
+    <div id="summaryDiv" class="col-md-4 col-sm-10">
+        <li id="summaryLI" class="row rowSC totals">
+            <h3 id="summaryTitle">Summary</h3>
+            <span class="itemName">Total:</span>
+            <span id="totalPriceShoppingCart">@Html.PropertyFor(m => Model.TotalPrice)</span>
+            @using (Html.BeginForm("Index", "Checkout", FormMethod.Post))
+            {
+                <input id="orderButtom" class="btn btn-default" type="submit" value="Order Now" />
+            }
+        </li>
+    </div>
+
+</div>
+
+<!-- The popover content -->
+
+<div id="popover" style="display: none">
+</div>
+
+<!-- JavaScript includes -->
+
+<script src="~/Static/js/bootstrap.min.js"></script>
+<script src="~/Static/js/custom/customjsSC.js"></script>
+
+
+
+
+<p style="position: absolute; left: 25%;">
+    @Html.ActionLink("Continue Shopping", "../NikeProductCMS/Index")
+</p>

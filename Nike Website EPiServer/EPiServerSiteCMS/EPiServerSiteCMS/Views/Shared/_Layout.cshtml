@@ -1,0 +1,184 @@
+﻿@using System.Web
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NikeStore. Shop the Official Nike Store for Shoes, Clothing and Gear</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/Static/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="~/Static/js/jquery-2.1.4.js"></script>
+    <script src="~/Static/js/modernizr-2.8.3.js"></script>
+    <script src="~/Static/js/jquery.validate.js"></script>
+    <script src="~/Static/js/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Static/js/bootstrap.min.js"></script>
+    @* bxslider must be included in the head section *@
+    <script src="~/Static/js/jquery.bxslider.js"></script>
+    <link href="~/Static/css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+    @* -----end of bxslider scripts/styles *@
+    <link href="~/Static/css/custom/navigationbars.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!--navbar-ul de sus -->
+    <div class="fullTopNavBar">
+        <div id="topNavbar">
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="~/StartPage/Index" id="topNavbarButtons1">SHOP</a>
+                    <a class="navbar-brand" href="~/StartPage/Index" id="topNavbarButtons2">NIKE+</a>
+                    <a class="navbar-brand" href="~/StartPage/Index" id="topNavbarButtons3"></a>
+                    <a class="navbar-brand" href="~/StartPage/Index" id="topNavbarButtons4"></a>
+                </div>
+                <div class="nav navbar-nav navbar-right">
+                    <a class="navbar-brand" href="~/StartPage/Index" id="topNavbarButtons5">SITE FEEDBACK</a>
+                    @if (@Session["newLoggedUser"] == null)
+                    {
+                        <a class="navbar-brand" href="../Register/Index" id="topNavbarButtons6"></a>
+                    }
+                    <a class="navbar-brand glyphicon glyphicon-shopping-cart" href="~/ShoppingCart/Index" id="topNavbarButtons7">
+                        <span hidden="true" id="getNumberOfItems"></span>
+                        <span id="numberOfItems"
+                              style="background-image: -moz-linear-gradient(center top, #fd7d00 0%, #f72b00 100%);
+                                    font-size: 12px;
+                                    padding: 2px 3px 0px 10px;
+                                    background-color: #FA5400;
+                                    margin-left: 6px; "></span>
+                    </a>
+                    <a class="navbar-brand dropdown-toggle" href="#" id="topNavbarButtons8" data-toggle="dropdown">HELP</a>
+                    <ul class="dropdown-menu" role="menu" id="topDropDown">
+                        <li><a style="background-color: #414141;" class="tdOptions sameBackground" href="#"><pre class="sameBackground"><h4>GET HELP</h4></pre></a></li>
+                        <li><a style="background-color: #414141;" class="tdOptions sameBackground" href="#"><pre class="sameBackground">Shipping & Delivery</pre></a></li>
+                        <li><a style="background-color: #414141;" class="tdOptions sameBackground" href="#"><pre class="sameBackground">Returns</pre></a></li>
+                        <li><a style="background-color: #414141;" class="tdOptions sameBackground" href="#"><pre class="sameBackground">Order Status</pre></a></li>
+                        <li><a style="background-color: #414141;" class="tdOptions sameBackground" href="#"><pre class="sameBackground">Size Charts</pre></a></li>
+                        <li><a style="background-color: #414141;" class="tdOptions sameBackground" href="#"><pre class="sameBackground">Launch Calendar</pre></a></li>
+                        <li><a style="background-color: #414141;" class="tdOptions sameBackground" href="#"><pre class="sameBackground">NIKEiD</pre></a></li>
+                        <li><a style="background-color: #414141;" class="tdOptions sameBackground" href="#"><pre class="sameBackground">Member Bedefits</pre></a></li>
+                        <li><a style="background-color: #414141;" class="tdOptions sameBackground" href="#"><pre class="sameBackground">Contact Us</pre></a></li>
+                        <li><a style="background-color: #414141;" class="tdOptions sameBackground" href="#"><pre class="sameBackground">Nike+</pre></a></li>
+                        <li><a style="background-color: #414141;" href="#"><pre></pre></a></li>
+                        <li><a style="background-color: #414141;" href="#"><pre><h5>View All</h5></pre></a></li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+
+
+
+
+
+        <!-- tot navbar-ul  -->
+        <!-- NAVBAR-ul mare -->
+
+        <nav class="navbar navbar-default bigOne" id="bigOne">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="~/StartPage/Index" id="nikeLogo"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="~/NikeProductCMS/Index" class="dropdown-toggle disabled barOptions" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">MEN<span class="caret"></span></a>
+
+                        </li>
+                        <li class="dropdown">
+                            <a href="~/NikeProductCMS/Index" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WOMEN<span class="caret"></span></a>
+
+                        </li>
+                        <li class="dropdown">
+                            <a href="~/NikeProductCMS/Index" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">BOYS<span class="caret"></span></a>
+
+                        </li>
+                        <li class="dropdown">
+                            <a href="~/NikeProductCMS/Index" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GIRLS<span class="caret"></span></a>
+
+                        </li>
+                        <li class="dropdown">
+                            <a href="~/NikeProductCMS/Index" class="dropdown-toggle disabled" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">EXPLORE<span class="caret"></span></a>
+
+                        </li>
+                    </ul>
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="WHAT ARE YOU LOOKING FOR?" id="navSearch">
+                        </div>
+                    </form>
+                    <!--Hide buttons if user is logged in-->
+                    @if (@Session["newLoggedUser"] == null)
+                    {
+                        <ul class="nav navbar-nav navbar-right" id="joinLogin">
+                            <li><a href="~/Register/Index">JOIN</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="loginButton">LOG IN <span class="caret"></span></a>
+                                @{Html.RenderPartial("Login", new EPiServerSiteCMS.Models.Pages.Login());}
+
+                                <!--
+                                <ul class="dropdown-menu" id="loginDropdown">
+                                    <li><a href="#" class="boldText">LOG IN TO NIKE+</a></li>
+                                    <form class="form-signin">
+                                        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+                                        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                                    </form>
+                                    <li>
+                                        <label>
+                                            <input type="checkbox" value="remember-me" id="kmliCk"> Keep me logged in
+                                        </label>
+                                    </li>
+
+                                    <li><a href="#" id="phText">Password help</a></li>
+                                    <li><button type="button" class="btn btn-default navbar-btn" id="loginDDLloginBTN">LOG IN</button></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#" class="boldText">CREATE A FREE NIKE+ ACCOUNT</a></li>
+                                    <li><button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#registerModal" id="loginDDLjoinBTN">JOIN</button></li>
+                                </ul>
+                                      -->
+                            </li>
+
+                        </ul>
+                    }
+                    else
+                    {
+                        <ul class="nav navbar-nav navbar-right" id="joinLogin">
+                            <li><a href="@Url.Action("Index","BillingAddressBlock")">MY ACCOUNT</a></li>
+                            <li>
+                                @Html.ActionLink("LOGOUT", "Logout", "Logout")
+                            </li>
+                        </ul>
+                    }
+                </div>
+            </div>
+
+        </nav>
+    </div>
+    <div>
+
+    </div>
+
+    <div id="theBody" style="background-color:white;">
+
+        @RenderBody()
+    </div>
+    @*------------- footer -------------*@
+
+    @{Html.RenderPartial("Footer");}
+
+    @*------------- footer -------------*@
+
+
+    <script src="~/Static/js/custom/index.js"></script>
+    <script src="~/Static/js/bootstrap.min.js"></script>
+    <script src="~/Static/js/jquery.validate.js"></script>
+    <script src="~/Static/js/jquery.validate.unobtrusive.js"></script>
+    <script src="~/Static/js/custom/shopingCart.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+﻿@model EPiServerSiteCMS.Models.Pages.Login
+
+<link href="~/Static/css/custom/login.css" rel="stylesheet" type="text/css" />
+
+   
+<ul class="dropdown-menu" id="loginDropdown">
+    <li><a href="#" class="boldText">LOG IN TO NIKE+</a></li>
+    @using (Html.BeginForm("Login", "Login", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.Email, new { @class = "control-label col-md-2" })
+            <div class="col-md-10" id="loginEmailField">
+                @Html.EditorFor(model => model.Email)
+                @Html.ValidationMessageFor(model => model.Email, string.Empty, new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.Password, new { @class = "control-label col-md-2" })
+            <div class="col-md-10" id="loginPasswordField">
+                @Html.PasswordFor(model => model.Password)
+                @Html.ValidationMessageFor(model => model.Password, string.Empty, new { @class = "text-danger" })
+            </div>
+        </div>
+        
+        
+
+    
+    <li>
+        <label id="loginKMLI">
+            <input type="checkbox" value="remember-me" id="kmliCk"> Keep me logged in
+        </label>
+    </li>
+
+    <li><a href="#" id="phText">Password help</a></li>
+    <li><button type="submit" class="btn btn-default navbar-btn" id="loginDDLloginBTN">LOG IN</button></li>
+    <li role="separator" class="divider"></li>
+    <li><a href="#" class="boldText" id="logInCreateText">CREATE A FREE NIKE+ ACCOUNT</a></li>
+    <li><button type="button" onclick="location.href='../Register/Index'"  class="btn btn-default navbar-btn" id="loginDDLjoinBTN">JOIN</button></li>
+}
+</ul>
+
+
+
+

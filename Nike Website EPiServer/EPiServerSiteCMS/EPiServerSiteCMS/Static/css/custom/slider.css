@@ -1,0 +1,13 @@
+﻿.bx-wrapper{
+	border: none;
+}
+.bx-wrapper img {
+    height: 700px;
+    width: 100%;
+}
+body{
+    background:black;
+}
+.bx-wrapper .bx-prev  {
+    background: transparent url("~/Images/controls.png") no-repeat scroll 0px -32px;
+}

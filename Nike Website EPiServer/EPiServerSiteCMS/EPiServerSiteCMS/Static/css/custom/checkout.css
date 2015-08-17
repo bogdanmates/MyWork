@@ -1,0 +1,40 @@
+﻿
+#noShadowBorderDIV {
+    border-shadow: none !important;
+    border: none !important; 
+    box-shadow: none !important;
+
+}
+
+.container-fluid {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;   
+}
+#sendOrderNow {
+    margin-left: 8.5%;
+    color: white;
+    background-color: green;
+    color: white;
+    font-size: 17px;
+}
+
+#totalPriceCheckout {
+    color: green;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+#wrapperCheckout {
+    border-color: green !important;
+    margin-top: 5%;
+}
+
+.panel , .panel-heading , a.panel-title {
+    border-color: #333333 !important;
+
+}
+
+.panel-heading {
+    background-color: #333333 !important;
+}

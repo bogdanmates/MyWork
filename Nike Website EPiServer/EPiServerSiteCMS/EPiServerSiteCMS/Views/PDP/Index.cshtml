@@ -1,0 +1,84 @@
+﻿@model EPiServerSiteCMS.Models.ViewModels.ProductViewModel
+<!--
+<link href="~/Static/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    -->
+<link href="~/Static/css/custom/PDPCustom.css" rel="stylesheet" type="text/css" />
+<hr />
+@using(Html.BeginForm("AddToCart","PDP",FormMethod.Post,new {id = "orderForm"}))
+{
+    <div class="container">
+        <!-- Example row of columns -->
+        <div class="row">
+            <div class="col-md-5">
+                <!-- <img id="PDPImage" src="http://content.nike.com/content/dam/one-nike/en_us/season-2013-ho/Shop/NIKEiD/NIKEiD_P2_Running_20131112_FILT.jpg.transform/full-screen/image.jpg" alt="Image of nike"/> -->
+
+                <div class="divImgPDP">
+                    @*@Html.DisplayFor(model => model.ImageProduct)  TEST IF IMAGE IS LOADED*@
+                    <ul class="bxslider">
+                        @foreach (var itemImg in Model.Images)
+                        {
+                            <li><img src="@itemImg"/></li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-5">
+                @Html.HiddenFor(model => model.Code)
+                <h2>@Html.DisplayFor(model => model.DisplayName)</h2>
+                <p>Price: @Html.DisplayFor(model => model.Price) $</p>
+                <p>Color: @Html.DisplayFor(model => model.Color)</p>
+                <hr />
+                <p>Product Details:</p>
+                @Html.DisplayFor(model => model.Details)
+                <hr />
+                <div class="col-md-10">
+                </div>
+                <div id="productOptions">
+                    <h5 style="margin-right: 5px;"> @Html.Label("Size")</h5>
+                    <select class="marginLineSpace" id="sizeSelection" class="btn btn-default">
+                        <option value="35">35</option>
+                        <option value="36">36</option>
+                        <option value="37">37</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                    </select>
+                    <h5 style="margin-right: 5px;"> @Html.Label("Quantity ")</h5>
+                    @Html.TextBox("quantity", "1", new { maxlength = 9, size = 10, @class = "inputbox", @required = "required",@id = "quantity" })
+                    <input id="cartButtom" class="marginLineSpace" class="btn btn-default" type="submit" value="Add To Cart" />
+                </div>
+            </div>
+        </div>
+    </div>
+}
+<p style="position: absolute; left: 25%;">
+    @Html.ActionLink("Back to List", "../NikeProductCMS/Index")
+</p>
+
+<script src="~/Static/js/custom/slider.js"></script>
+<script src="~/Static/js/jquery.unobtrusive-ajax.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#orderForm").submit(function (e) {
+            e.preventDefault();
+            $.ajax({
+                url: $(this).attr("action"),
+                type: "POST",
+                traditional: true,
+                //dataType: "json",
+                data: {
+                    "quantity": $("#quantity").val(),
+                    "code" : "@Model.Code"
+                },
+                success: function(success) {
+                    if (success.onSuccess) {
+                        $('#numberOfItems').text(success.quantity);
+                    }
+                },
+                error: function (e){}
+            });
+        });
+    });
+</script>

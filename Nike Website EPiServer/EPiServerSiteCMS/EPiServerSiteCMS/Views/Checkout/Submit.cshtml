@@ -1,0 +1,56 @@
+﻿@using EPiServer.Core
+@using EPiServer.Web.Mvc.Html
+
+
+@model EPiServerSiteCMS.Models.ViewModels.CheckoutVM
+<div class="container" style="padding-top:30px">
+    <ul class="list-group">
+        <li class="list-group-item">
+            <p class="text-center text-success text-uppercase">Items</p>
+        </li>
+        @foreach (var item in Model.Cart.ListOfItems)
+        {
+            <li class="list-group-item">
+                @Html.DisplayFor(m => item.DisplayName)
+            </li>
+            <li class="list-group-item">
+                $@Html.DisplayFor(m => item.Price)
+            </li>
+            <li class="list-group-item">
+                @Html.DisplayFor(m => item.Quantity)
+            </li>
+
+        }
+    </ul>
+    <div class="text-info">
+        <p>Total Price: $@Html.DisplayFor(m => m.Cart.TotalPrice)</p>
+    </div>
+
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <div class="panel-title">
+                User Details
+            </div>
+        </div>
+        <div class="panel-body">
+            <div class="panel-group">
+                <div class="text-capitalize">
+                    @Html.DisplayFor(m => m.FirstName)
+                </div>
+                <div class="text-capitalize">
+                    @Html.DisplayFor(m => m.LastName  )
+                </div>
+                <div class="text-capitalize">
+                    @Html.DisplayFor(m => m.Address)
+                </div>
+                <div class="text-capitalize">
+                    @Html.DisplayFor(m => m.City)
+                </div>
+                <div class="text-capitalize">
+                    @Html.DisplayFor(m => m.ZIPCode)
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

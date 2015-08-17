@@ -1,0 +1,116 @@
+﻿#theTitle {
+    font-weight: bold;
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+#signUpButton {
+    background-color: #ff9900;
+    font-weight: bold;
+    color: #fff;
+    width: 118px;
+    height: 38px;
+    text-align: center;
+    margin-left: 526px;
+    margin-top: -80px;
+}
+
+.modal-footer {
+    text-align: left;
+    border-top: 1px solid #E5E5E5;
+}
+
+.modal-header .close {
+    margin-top: -41px;
+}
+
+#theRegister {
+    clear: both;
+    width: 677px;
+    margin-left: 564px;
+    background-color: white;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    /*Added*/
+    min-height: 806px;
+}
+
+.editor-field {
+    width: 394px;
+}
+
+#theBody {
+    background-color: lightgray;
+}
+
+#registerHeader {
+    margin-left: 19px;
+    margin-bottom: -18px;
+}
+
+#Password {
+    clear: both;
+    width: 396px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    height: 32px;
+}
+
+#ConfirmPassword {
+    clear: both;
+    width: 396px;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    height: 32px;
+}
+
+#joinLogin {
+    visibility: hidden;
+}
+
+.navbar-right {
+    float: right !important;
+    margin-right: 0px;
+    visibility: hidden;
+}
+
+#theBody {
+    background-color: lightgray !important;
+}
+
+#nikeLogo {
+    background-image: url("../../../Images/Topbar/logo.png");
+    background-repeat: no-repeat;
+    width: 70px;
+    vertical-align: middle;
+    height: 333%;
+    margin-top: 5px;
+}
+
+#topNavbarButtons5 {
+    visibility: visible;
+}
+
+
+
+#topNavbarButtons7 {
+    visibility: visible;
+}
+
+#topNavbarButtons8 {
+    visibility: visible;
+}
+
+#Email {
+    clear: both;
+    /*Modified*/
+    width: 395px !important;
+    border: 1px solid #D3D3D3;
+    border-radius: 5px;
+    height: 32px;
+}
+
+/*Added*/
+#theFooterMessage {
+    margin-left: -12px;
+}

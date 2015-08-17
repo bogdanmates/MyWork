@@ -1,0 +1,164 @@
+﻿@model EPiServerSiteCMS.Models.Pages.Register
+<link href="~/Static/css/custom/register.css" rel="stylesheet" type="text/css" />
+
+<br />
+<div id="theRegister">
+    <div id="registerHeader">
+        <p id="theTitle">CREATE A FREE NIKE+ ACCOUNT</p>
+        <!--Removed-->
+        <!--
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        -->
+        <p>The Plus Means Mode.</p>
+        <p>More Gear. Events. Coaching. Just For You.</p>
+        <div class="row">
+            <div>
+                <ul>
+                    <li>Free shipping on every order, every time</li>
+                    <li>Access to our workouts and events</li>
+                    <li>Coaches and apps to be your best</li>
+                </ul>
+            </div>
+        </div>
+        <p>
+            <u>Learn Mode</u>
+        </p>
+        <hr />
+    </div>
+
+
+    @using (Html.BeginForm("Register", "Register", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+    
+        <div class="modal-body">
+
+           @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="editor-label">
+                <b>First Name*</b>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.FirstName, string.Empty, new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="editor-label">
+                <b>Last Name*</b>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.LastName, string.Empty, new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!--Added-->
+            <div class="editor-label">
+                <b>Screen Name*</b>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.ScreenName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ScreenName, string.Empty, new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="editor-label">
+                <b>Date of Birth*</b>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.DateOfBirth, new { htmlAttributes = new { @class = "form-control", Value="01/01/1900", @placeholder ="mm/dd/yyyy" } })
+                   
+                    @Html.ValidationMessageFor(model => model.DateOfBirth, string.Empty, new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="editor-label">
+                <b>Email Address*</b>
+                <div class="editor-field" id="theEmail">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Email, string.Empty, new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!--Removed-->
+            <!--
+            <div class="form-group">
+                <div class="col-md-10">
+                </div>
+            </div>
+            -->
+            <!--Removed-->
+            <!--
+            <div class="form-group">
+                <div class="col-md-10">
+                </div>
+            </div>
+            -->
+
+            <div class="editor-label">
+                <b>Zipcode*</b>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.ZipCode, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ZipCode, string.Empty, new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div>
+                <div class="editor-label">
+                    <b>Password*</b>
+                    <div class="editor-field" id="registerPassword">
+                        @Html.PasswordFor(model => model.Password)
+                        @Html.ValidationMessageFor(model => model.Password, string.Empty, new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="editor-label">
+                    <b>Confirm Password*</b>
+                    <div class="editor-field">
+                        @Html.PasswordFor(model => model.ConfirmPassword, new { htmlAttributes = new { @class = "form-control password" } })
+                        @Html.ValidationMessageFor(model => model.ConfirmPassword, string.Empty, new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <!--Added-->
+            <div class="editor-label">
+                <b>Gender*</b>
+                <div class="editor-field">
+                    @Html.EditorFor(model => model.Gender, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Gender, string.Empty, new { @class = "text-danger" })
+                </div>
+            </div>
+            <br />
+
+            <!--Removed-->
+            <!--
+            <div class="editor-label">
+                <div class="editor-field">
+                </div>
+            </div>
+            -->
+
+            <div class="modal-footer" id="footerMessage">
+                <p id="theFooterMessage">
+                    By clicking SIGN UP, you are agreeing to the <u>Nike Policy</u> and <u>Terms & Conditions</u>
+                </p>
+            </div>
+
+
+            <div class="form-group">
+                <div>
+                    <input type="submit" value="SIGN UP" id="signUpButton" class="btn btn-default" />
+                    
+                </div>
+            </div>
+
+
+        </div>
+    
+    }
+</div>
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@*<script src="~Static/js/jquery-2.1.4.min.js"></script>
+<script src="~Static/js/jquery.validate.min.js"></script>
+<script src="~Static/js/jquery.validate.unobtrusive.min.js"></script>*@

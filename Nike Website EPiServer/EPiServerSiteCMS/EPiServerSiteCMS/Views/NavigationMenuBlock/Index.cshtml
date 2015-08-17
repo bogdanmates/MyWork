@@ -1,0 +1,20 @@
+﻿@using EPiServer.Core
+@using EPiServer.Shell.Navigation
+@using EPiServer.Web.Mvc.Html
+
+@model EPiServerSiteCMS.Models.Blocks.ViewModel.NavigationMenuViewModel
+
+<div>
+    @if (Model.PageChildren.Any())
+    {
+        @* Render nav menu items *@
+        <ul style="padding: 10px; list-style-type: none;">
+            <hr/>
+            @foreach (var page in Model.PageChildren)
+            {
+                <li class="list-group-item-text">@Html.ContentLink(page)</li>
+                <hr/>
+            }
+        </ul>
+    }
+</div>

@@ -1,0 +1,43 @@
+﻿@model IEnumerable<EPiServerSiteCMS.Models.Catalog.NikeVariant>
+
+@{
+    ViewBag.Title = "IndexVariantsList";
+}
+
+<h2>IndexVariantsList</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.VariantName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Color)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Details)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.VariantName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Color)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Details)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ImageProduct)
+            </td>
+
+        </tr>
+    }
+
+</table>
