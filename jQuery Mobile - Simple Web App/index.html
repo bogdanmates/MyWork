@@ -1,0 +1,166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title>My jQuery Mobile Project</title>
+
+	<style>
+		#theButtons {
+			text-align: center;
+		}
+		.hide {
+			display:none;
+		}
+	</style>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+	<script>
+		$(function() {
+		//La click pe butonul cu ID-ul butonSpreContact ne duce pe pagina cu ID-ul pag2
+		$("#butonSpreContact").on("click",function(){
+			$.mobile.changePage("#pag2");
+		});
+		//
+		$("#butonSpreFilme").on("click",function(){
+			$.mobile.changePage("#moviesPage");
+		});
+		$("#butonSpreCheckDevice").on("click",function(){
+			$.mobile.changePage("#checkDevicePage");
+		});
+		$("#butonSpreHarta").on("click",function(){
+			$.mobile.changePage("#mapPage");
+		});
+	});
+	</script>
+
+</head>
+<body>
+	<div data-role="page" id="pag1">
+		<div data-role="header">
+			<h1>Welcome!</h1>
+		</div>
+		<div data-role="main" class="ui-content">
+			<div data-role="content">
+				<!--Butoanele-->
+				<button id="butonSpreFilme"class="ui-bt">Go to Movies</button> 
+				<button id="butonSpreCheckDevice"class="ui-bt">Check your device</button> 
+				<button id="butonSpreHarta"class="ui-bt">Go to map</button>	
+				<button id="butonSpreContact"class="ui-bt">Go to Contact page</button> 
+			</div>
+		</div>
+		<div data-role="footer">
+			<h1>Copyright 2015 All Rights Reserved.</h1>
+		</div>
+	</div> 
+
+		<div data-role="main" class="ui-content">
+			<div data-role="collapsible">
+				<h3>Everest</h3>
+				<img src="Everest.png" alt="Everest" style="width:304px;height:228px;">
+				<p>A climbing expedition on Mt. Everest is devastated by a severe snow storm.</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Maze Runner</h3>
+				<p>After having escaped the Maze, the Gladers now face a new set of challenges on the open roads of a desolate landscape filled with unimaginable obstacles.</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Black Mass</h3>
+				<p>The true story of Whitey Bulger, the brother of a state senator and the most infamous violent criminal in the history of South Boston, who became an FBI informant to take down a Mafia family invading his turf.</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Sicario</h3>
+				<p>An idealistic FBI agent is enlisted by an elected government task force to aid in the escalating war against drugs at the border area between the U.S. and Mexico.</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Captive</h3>
+				<p>A single mother struggling with drug addiction is taken hostage in her own apartment by a man on the run after breaking out of jail and murdering the judge assigned to his case.</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Pawn Sacrifice</h3>
+				<p>American chess champion Bobby Fischer prepares for a legendary match-up against Russian Boris Spassky.</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>War Room</h3>
+				<p>A seemingly perfect family look to fix their problems with the help of Miss Clara, an older, wiser woman.</p>
+			</div>
+		</div>
+	</div>
+	<a href="#pag1" class="ui-btn ui-btn-b">Go back Home</a>
+	<div data-role="footer">
+		<h1>Copyright 2015 All Rights Reserved.</h1>
+	</div>
+</div>
+
+<div data-role="page" id="checkDevicePage">
+	<script>
+		var isMobile = { 
+			Android: function() { return navigator.userAgent.match(/Android/i); }, 
+			BlackBerry: function() { return navigator.userAgent.match(/BlackBerry/i); }, 
+			iOS: function() { return navigator.userAgent.match(/iPhone|iPad|iPod/i); }, 
+			Opera: function() { return navigator.userAgent.match(/Opera Mini/i); }, 
+			Windows: function() { return navigator.userAgent.match(/IEMobile/i); }, 
+			any: function() { return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows()); } };
+
+			jQuery(function($) {
+				if (!isMobile.any())
+					$('#is-mobile').toggleClass('show hide');
+				if (isMobile.any())
+					$('#is-desktop').toggleClass('show hide');
+			});
+		</script>
+		<div data-role="main" class="ui-content">
+			<p id="is-mobile" class="show">This is a Mobile Device</p>
+			<p id="is-desktop" class="show">This is NOT a Mobile Device</p>
+		</div>
+		<a href="#pag1" class="ui-btn ui-btn-b">Go back Home</a>
+		<div data-role="footer">
+			<h1>Copyright 2015 All Rights Reserved.</h1>
+		</div>
+	</div>
+
+	<div data-role="page" id="mapPage">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m29!1m12!1m3!1d174848.7243004047!2d23.200164770738596!3d46.78438136379117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m14!1i0!3e6!4m5!1s0x47490c1f916c0b8b%3A0xbbc601c331f148b!2sCluj-Napoca!3m2!1d46.766667!2d23.583333!4m5!1s0x4748e17f4de0d1cf%3A0x6a76afe131b5aca6!2zUsOiyJljYQ!3m2!1d46.7437!2d23.107799999999997!5e0!3m2!1sro!2sro!4v1408500171636" width="400" height="300" frameborder="0" style="border:0"></iframe><br>
+		<a href="#pag1" class="ui-btn ui-btn-b">Go back Home</a>
+		<div data-role="footer">
+			<h1>Copyright 2015 All Rights Reserved.</h1>
+		</div>
+	</div>
+
+	<div data-role="page" id="pag2">
+		<div data-role="header"><h1>Contact</h1></div>
+		<div data-role="content">
+			<div data-role="main" class="ui-content" id="theButtons">
+				<!--Butoanele pt fiecare Panel cu detalii-->
+				<a href="#myPanel" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" >View Address</a>
+				<a href="#myPanel2" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">View Phone Number</a>
+				<a href="#myPanel3" class="ui-btn ui-btn-inline ui-corner-all ui-shadow">View Email Address</a>
+				<!--Butoanele pt fiecare Panel cu detalii-->
+				<a href="#pag1" class="ui-btn ui-btn-b">Go back Home</a>
+			</div>
+			<!--Panel-->
+			<div data-role="panel" id="myPanel" data-position="center">
+				<p>Address here</p>
+				<a href="#pag2" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close</a>
+			</div>
+
+			<div data-role="panel" id="myPanel2" data-position="center">
+				<p>Phone Number here</p>
+				<a href="#pag2" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close</a>
+			</div>
+
+			<div data-role="panel" id="myPanel3" data-position="center">
+				<p>Email Address here</p>
+				<a href="#pag2" data-rel="close" class="ui-btn ui-btn-inline ui-shadow ui-corner-all ui-btn-a ui-icon-delete ui-btn-icon-left">Close</a>
+			</div>
+		</div>
+		<div data-role="footer">
+			<h1>Copyright 2015 All Rights Reserved.</h1>
+		</div>
+	</div>
+
+</body>
+</html>
